@@ -14,11 +14,13 @@ body{
 }
 
 .onsale{
+    width: 100%;
     color: black;
     font-size: 15px;
 }
 
 .historical-sale{
+    width: 100%;
     color: black;
     font-size: 15px;
 }
@@ -38,7 +40,6 @@ body{
 .project-item{
     width: 100%;
     background: white;
-    height: 80px;
 }
 
 
@@ -75,9 +76,12 @@ body{
     width: 72px;
     height: 40px;
 }
-.year-interest-rate{
+.center{
     text-align: center;
     align-items: center;
+    top:20px;
+}
+.year-interest-rate{
 
 }
 
@@ -86,12 +90,11 @@ body{
     position:relative;
 }
 .img-red-package-bg{
-    height: 40px;
-    width: auto;
-    position:absolute;
-    right:20px;
-    top:15px;
+    width: 40px;
+    margin-top: 15px;
+    margin-right: 20px;
 }
+
 .right-red{
 
 }
@@ -136,19 +139,6 @@ body{
 .pg{
     -webkit-appearance: none;
 }
-::-webkit-progress-bar{
-    /* 获取progress */
-    background-color: orange;
-    /* 进度条未被填充的背景颜色 */
-}
-::-webkit-progress-value {
-    background-color: blue;
-    /* 进度条被填充部分的背景颜色 */
-}
-::-webkit-progress-inner-element {
-    border: 1px solid black;
-    /* 进度条的内边框，注意跟outline区分 */
-}
 
 .item-already-bouaght{
     display: flex;
@@ -183,7 +173,13 @@ body{
     text-indent:0.5em;
 }
 
-
+.projress{
+    height: 30px;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+}
 
 
 .item-bottom-total{
@@ -218,4 +214,10 @@ body{
     color: orange;
     font-weight: bold;
     text-indent:0.5em;
+}
+
+.item-two-line{
+    background: #fafafa;
+    width: 100%;
+    height: 10px;
 }

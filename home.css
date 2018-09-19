@@ -14,12 +14,11 @@ body{
 }
 
 .title {
+    width: 100%;
     text-align: center;
     height: 40px;
     line-height: 40px;
     font-weight: bold;
-    position: fixed;
-    top: 0;
 }
 
 .icon {
