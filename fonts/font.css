@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'dINAlternateBold';
+    src: url('dINAlternateBold.eot');
+    src: url('dINAlternateBold.eot?#iefix') format('embedded-opentype'),
+        url('dINAlternateBold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
