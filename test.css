@@ -1,0 +1,32 @@
+.one {
+    width: 70px;
+    height: 50px;
+    background: blue;
+}
+
+.two {
+    width: 70px;
+    height: 50px;
+    background: orange;
+}
+
+.three {
+    width: 70px;
+    height: 50px;
+    background: deeppink;
+    position: absolute;
+    right: 0px;
+    bottom: 50px;
+}
+
+.four {
+    width: 70px;
+    height: 50px;
+    background: black;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+}

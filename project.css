@@ -3,6 +3,7 @@ body{
 }
 
 .header {
+    z-index:1;
     background: white;
     height: 48px;
     width: 100%;
@@ -25,7 +26,7 @@ body{
     font-size: 15px;
 }
 
-.body{
+.content{
     background: #fafafa;
     height: 100%;
 }
@@ -65,21 +66,25 @@ body{
     height: 1px;
     background: #fafafa;
 }
-
+/*justify-content:space-between;*/
 .interest—rate{
     width: 100%;
+    height: 140px;
     display: flex;
-    justify-content:space-between;
     align-items:center;
+}
+.left{
+    float:left;
+    padding: 0;
+    margin: 0;
+    align-self: flex-start;
 }
 .header-rate-five{
     width: 72px;
-    height: 40px;
+    height: auto;
 }
 .center{
     text-align: center;
-    align-items: center;
-    top:20px;
 }
 .year-interest-rate{
 
@@ -87,16 +92,25 @@ body{
 
 .header-rate-red-package{
     height: 40px;
-    position:relative;
+    /*position:relative;*/
+    float:right;
+
 }
 .img-red-package-bg{
     width: 40px;
-    margin-top: 15px;
     margin-right: 20px;
+    float:right;
 }
 
 .right-red{
 
+}
+
+.right{
+    float:right;
+    position: absolute;
+    right: 0px;
+    top: 110px;
 }
 
 .rednum{
@@ -109,13 +123,16 @@ body{
     text-align: center;
     position:absolute;
     right:20px;
-    top:10px;
+    float:right;
 }
 .orange-rate{
     font-size: 27px;
     color: orange;
     width: 100%;
     padding-top: 20px;
+    top: 20px;
+
+
 }
 .pink-add{
     color: deeppink;
