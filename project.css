@@ -110,6 +110,7 @@ body{
     align-items: center;
     padding: 0;
     margin-right: 0;
+    position: relative;
 }
 .year-interest-rate{
     width: 100%;
@@ -183,6 +184,7 @@ body{
     font-size: 8px;
     margin-bottom: 10px;
 }
+
 .pg{
     -webkit-appearance: none;
 }
@@ -192,8 +194,64 @@ body{
     text-align: center;
     align-items: center;
     vertical-align:middle;
+}
+
+.item-already-progress{
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    vertical-align:middle;
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.progress_container{
+    width: 100%;
+    margin-top: 10px;
+    position: relative;
 
 }
+
+.div2{
+    width: 100%;
+    height: 2px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.gif1{
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: #f1f1f1;
+    border-radius: 1px;
+}
+
+.gif2{
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 95%;
+    height: 2px;
+    background: #FF7E00;
+    border-radius: 1px;
+}
+
+
+.gif3{
+    position:absolute;
+    top: -5px;
+    left: 0;
+    width: 10px;
+    height: 2px;
+    background: #FF7E00;
+    border-radius: 50%;
+    border: 1px solid #ff7e01;
+}
+
 
 
 .bought-num{
@@ -240,6 +298,7 @@ body{
     display: flex;
     line-height: 40px;
     justify-content:space-between;
+    background: white;
 }
 
 .item-total{
@@ -273,4 +332,44 @@ body{
     background: #fafafa;
     width: 100%;
     height: 10px;
+}
+
+
+
+
+
+
+
+.main{
+    height: 2px;
+    width:500px;
+    background: #f0f0f0;
+    border-radius: 3px;
+    margin-right: 15px;
+}
+.inner{
+    height: 2px;
+    width: 0;
+    background: #e4a348;
+    position: relative;
+    border-radius: 2px;
+    overflow: hidden;
+    padding-right: 70px;
+}
+.lineone{
+    position: relative;
+    top: 14px;
+    width: 490px;
+    border-top: 3px dashed #fff;
+}
+img{
+    position: absolute;
+    top: 103px;
+    left: 395px;
+}
+.data{
+    height: 2px;
+    width:43px;
+    position: absolute;
+    text-align: center;
 }
