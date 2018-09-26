@@ -78,6 +78,7 @@ body{
     height: 140px;
     display: flex;
     position: relative;
+
 }
 .left{
     float: left;
