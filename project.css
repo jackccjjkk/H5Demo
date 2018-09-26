@@ -39,6 +39,12 @@ body{
     margin-top: 48px;
 }
 
+.item-line-top{
+    background: #fafafa;
+    width: 100%;
+    height: 10px;
+}
+
 .item-line-every{
     background: #fafafa;
     width: 100%;
@@ -81,7 +87,6 @@ body{
 
 }
 .left{
-    float: left;
     position: absolute;
     width: 76px;
     margin: 0;
@@ -366,3 +371,50 @@ body{
     position: absolute;
     text-align: center;
 }
+
+
+.footer{
+    height: 55px;
+    width: 100%;
+    background-color: white;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items:center;
+}
+
+.tab-home {
+}
+.tab-project{
+}
+.tab-my{
+}
+.home-image{
+    height: 25px;
+    width: 25px;
+}
+.project-image{
+    height: 25px;
+    width: 25px;
+}
+
+.my-image{
+    height: 25px;
+    width: 25px;
+}
+.home-text{
+    color: #000;
+    font-size: 10px;
+}
+.project-text{
+    color: #000;
+    font-size: 10px;
+}
+.my-text{
+    color: #000;
+    font-size: 10px;
+}
+
+
