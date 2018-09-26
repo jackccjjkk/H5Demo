@@ -30,6 +30,11 @@ body{
 .content{
     background: #fafafa;
     height: 100%;
+    margin-bottom: 55px;
+}
+
+.onsale-project-list{
+
 }
 
 .item-line{
