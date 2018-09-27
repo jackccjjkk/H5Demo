@@ -37,12 +37,19 @@ body{
 
 }
 
-.item-line{
+.item-line-top{
     background: #fafafa;
     width: 100%;
     height: 10px;
     margin-top: 48px;
 }
+
+.item-line{
+    background: #fafafa;
+    width: 100%;
+    height: 10px;
+}
+
 
 .item-line-top{
     background: #fafafa;
