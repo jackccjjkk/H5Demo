@@ -97,30 +97,26 @@ body{
 }
 
 .content-center{
-    flex: 1;
-    display: flex;
+    flex: 3;
     text-align: center;
 }
 
 .content-left{
-    flex: 1;
+    flex: 4;
 }
 
 .content-right{
-    flex: 1;
+    flex: 3;
     text-align: right;
 }
 
 .content-center-txt{
-    flex: 1;
     text-align: center;
 }
 
 .vertical-line{
     background: #f0f0f0;
-    width: 1px;
-    height: 100%;
-    margin-left: 20px;
+    width: 2px;
 }
 
 .count-day{

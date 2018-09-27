@@ -90,11 +90,11 @@ body{
     height: 1px;
     background: #F0F0F0;
 }
-/*justify-content:space-between;*/
+/*justify-content:space-between; display: flex;*/
 .interest—rate{
     width: 100%;
     height: 140px;
-    display: flex;
+
     position: relative;
 
 }
@@ -178,6 +178,7 @@ body{
     width: 100%;
     padding-top: 20px;
     top: 20px;
+    font-family: dINAlternateBold;
 }
 .pink-add{
     color: #FF3A81;
@@ -189,6 +190,7 @@ body{
     color: #FF3A81;
     font-size: 25px;
     width: 100%;
+    font-family: dINAlternateBold;
 
 }
 
