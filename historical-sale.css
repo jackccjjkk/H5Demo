@@ -32,7 +32,7 @@ body{
     width: 100%;
     margin-top: 58px;
     background: #fafafa;
-    margin-bottom: 55px;
+    margin-bottom: 58px;
 
 }
 
@@ -60,18 +60,10 @@ body{
     height: 1px;
     background: #f0f0f0;
     margin-left: 10px;
-    margin-right: 10px;
 }
 
-.history-list-item-content{
-    padding: 10px;
-    display: flex;
-    justify-content: space-between;
-    background: white;
-}
 
-.left-text{
-}
+
 
 .interest-rate{
     color: #999999;
@@ -98,22 +90,42 @@ body{
     font-family: dINAlternateBold;
 }
 
-.center-txt{
+.history-list-item-content{
+    padding: 10px;
     display: flex;
+    background: white;
+}
+
+.content-center{
+    flex: 1;
+    display: flex;
+    text-align: center;
+}
+
+.content-left{
+    flex: 1;
+}
+
+.content-right{
+    flex: 1;
+    text-align: right;
+}
+
+.content-center-txt{
+    flex: 1;
+    text-align: center;
 }
 
 .vertical-line{
-    height: 45px;
     background: #f0f0f0;
     width: 1px;
-    margin-left: -20px;
-    margin-right: 20px;
+    height: 100%;
+    margin-left: 20px;
 }
 
 .count-day{
     color: #999999;
-    width: 50px;
-    text-align: right;
+    text-align: center;
 }
 
 .math{
@@ -122,9 +134,11 @@ body{
     text-indent:1px;
     font-weight: bold;
     font-family: dINAlternateBold;
+    text-align: center;
 }
 
 .day{
+    text-align: center;
     letter-spacing: 0.5em;
     color: #999999;
     font-size: 8px;
@@ -132,7 +146,6 @@ body{
 }
 
 .num-pop{
-    width: 50px;
     text-align: center;
 }
 
@@ -141,12 +154,14 @@ body{
     font-size: 14px;
     font-weight: bold;
     font-family: dINAlternateBold;
+    text-align: center;
 }
 
 .pop{
     color: #999999;
     font-size: 8px;
     font-family: dINAlternateBold;
+    text-align: center;
 }
 
 .money{
@@ -159,15 +174,16 @@ body{
 
 
 .count{
-    width: 70px;
-    align-items: center;
-    text-align: center;
+    text-align: right;
+
+
 }
 
 .count-y{
     color: #999999;
     font-size: 11px;
     font-family: dINAlternateBold;
+    margin-right: 10px;
 }
 
 
