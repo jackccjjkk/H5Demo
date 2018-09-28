@@ -4,6 +4,7 @@ body{
 }
 
 .header{
+    z-index: 1;
     width: 100%;
     background: white;
     height: 40px;
@@ -11,6 +12,8 @@ body{
     text-align: center;
     line-height: 40px;
     margin-bottom: 10px;
+    position: fixed;
+    top: 0;
 }
 
 .women{
@@ -28,12 +31,17 @@ body{
 
 .content{
     width: 100%;
-    background: #999999;
+    background: #F0F0F0;
 }
 
 .content-list{
     width: 100%;
-    background: #999999;
+    background: #F0F0F0;
+}
+
+.content-list-item-top{
+    background: white;
+    margin-top: 50px;
 }
 
 .content-list-item{
@@ -50,12 +58,15 @@ body{
     color: #20232c;
     font-family: dINAlternateBold;
     font-size: 13px;
+    transform: scale(0.9);
 }
 
 .title-num{
     color: #24ADE1;
-    font-family: dINAlternateBold;
+    align-items: baseline;
+
     font-size: 13px;
+    align-content: flex-end;
 }
 
 .header-line{
@@ -72,18 +83,17 @@ body{
 }
 
 .content-left{
-    flex: 2;
 
 }
 
 .content-center{
-    flex: 5;
 
 }
 
 .content-right{
-    flex: 3;
+    position: relative;
 }
+
 
 
 .head-project-text-bg{
@@ -105,47 +115,194 @@ body{
 }
 
 .interest-rate{
+
     display: flex;
-    font-family: dINAlternateBold;
-    text-align: center;
-    width: 100%;
+    justify-content: center;
+    align-items: baseline;
+    padding-top: 15px;
+
 }
 
 .interest-rate-text{
     font-family: dINAlternateBold;
-    font-size: 25px;
+    font-size: 35px;
     color: #FF7E00;
-    text-align: center;
 }
 
 .add{
     font-family: dINAlternateBold;
     color: #FF3A81;
-    text-align: center;
 }
 
 .platform-subsidy{
     font-family: dINAlternateBold;
-    font-size: 13px;
+    font-size: 22px;
     color: #FF3A81;
-    text-align: center;
+
 }
 
 .interest-rate-describe{
     font-family: dINAlternateBold;
     font-size: 10px;
     color: #999999;
+    transform: scale(0.8);
+    padding-top: 5px;
 }
 
 .pop-day{
     display: flex;
-    align-content: center;
-    align-self: center;
-    text-align: center;
+    justify-content: space-around;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+
+.buy-pop{
+    display: flex;
+    align-items: baseline;
+}
+.day-term{
+    display: flex;
+    align-items: baseline;
+}
+
+.pop-num{
+    color: #FF7E00;
+    font-size: 12px;
+    font-family: dINAlternateBold;
+}
+.buyed{
+    color: #20232c;
+    font-size: 10px;
+    transform: scale(0.8);
+}
+.center-vertical-line{
+    background: #F0F0F0;
+    height: 15px;
+    width: 1px;
+}
+.day-num{
+    color: #FF7E00;
+    font-size: 12px;
+    font-family: dINAlternateBold;
+}
+.dayterm{
+    color: #20232c;
+    font-size: 10px;
+    transform: scale(0.8);
+}
+
+.redpackagebg{
+
+    height: 40px;
+    padding-right: 15px;
+    padding-top: 10px;
 }
 
 
+.redpackagenum{
+    top: 8px;
+    right: 10px;
+    position: absolute;
+    height: 15px;
+    width: 15px;
+    background: #FF3A81;
+    border-radius: 9px;
+    font-size: 10px;
+    color: white;
+
+}
+
+.list-item-footer{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+.item-footer-left{
+    display: flex;
+}
+
+.total-money-text{
+    color: #999999;
+    font-size: 10px;
+    transform: scale(0.8);
+}
+
+.total-money-num{
+    font-weight: bold;
+    color: #20232c;
+    font-size: 10px;
+}
+
+.item-footer-right{
+    display: flex;
+}
+
+.surplus-money-text{
+    color: #999999;
+    font-size: 10px;
+    transform: scale(0.8);
+}
+
+.surplus-money-num{
+    color: #FF7E00;
+    font-size: 10px;
+    font-weight: bold;
+}
 
 .footer{
+    width: 100%;
+    height: 48px;
+    background-color: white;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    justify-content: space-around;
+}
+.tab-home {
+    padding-top: 5px;
+}
+.tab-project{
+    padding-top: 5px;
+}
+.tab-my{
+    padding-top: 5px;
+}
+.home-image{
+    height: 25px;
+    width: 25px;
+}
+.project-image{
+    height: 25px;
+    width: 25px;
+}
+.my-image{
+    height: 25px;
+    width: 25px;
+}
+
+
+.my-image{
+    height: 25px;
+    width: 25px;
+}
+.home-text{
+    color: #000;
+    font-size: 10px;
+}
+.project-text{
+    color: #000;
+    font-size: 10px;
+}
+.my-text{
+    color: #000;
+    font-size: 10px;
+}
+
+.biaoqian{
+    font-size: 9px;
+    color: greenyellow;
 
 }
