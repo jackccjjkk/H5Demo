@@ -1,0 +1,151 @@
+body{
+    margin: 0;
+    background: #F0F0F0;
+}
+
+.header{
+    width: 100%;
+    background: white;
+    height: 40px;
+    justify-content: space-around;
+    text-align: center;
+    line-height: 40px;
+    margin-bottom: 10px;
+}
+
+.women{
+    font-family: dINAlternateBold;
+    font-size: 15px;
+    color:#FF3A81;
+
+}
+
+.man{
+    font-family: dINAlternateBold;
+    font-size: 15px;
+    color: #20232c;
+}
+
+.content{
+    width: 100%;
+    background: #999999;
+}
+
+.content-list{
+    width: 100%;
+    background: #999999;
+}
+
+.content-list-item{
+    background: white;
+    margin-top: 10px;
+}
+
+.list-item-header{
+    display: flex;
+    padding: 10px;
+}
+
+.title-name{
+    color: #20232c;
+    font-family: dINAlternateBold;
+    font-size: 13px;
+}
+
+.title-num{
+    color: #24ADE1;
+    font-family: dINAlternateBold;
+    font-size: 13px;
+}
+
+.header-line{
+    background: #F0F0F0;
+    height: 1px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.list-item-content{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.content-left{
+    flex: 2;
+
+}
+
+.content-center{
+    flex: 5;
+
+}
+
+.content-right{
+    flex: 3;
+}
+
+
+.head-project-text-bg{
+    height: 50px;
+    background: url("img/bg_header.png") no-repeat;
+    background-size:contain;
+}
+
+.head-project-text{
+
+    font-family: dINAlternateBold;
+    color: white;
+    font-size: 10px;
+    transform: scale(0.6) rotate(321deg);
+    -webkit-transform :  scale(0.6) rotate(323deg) translate(-7px,-13px) ; /*为Chrome/Safari*/
+    -moz-transform:scale(0.6)rotate(321deg); /*为Firefox*/
+    -ms-transform:scale(0.6)rotate(321deg); /*为IE*/
+    -o-transform:scale(0.6)rotate(321deg); /*为Opera*/
+}
+
+.interest-rate{
+    display: flex;
+    font-family: dINAlternateBold;
+    text-align: center;
+    width: 100%;
+}
+
+.interest-rate-text{
+    font-family: dINAlternateBold;
+    font-size: 25px;
+    color: #FF7E00;
+    text-align: center;
+}
+
+.add{
+    font-family: dINAlternateBold;
+    color: #FF3A81;
+    text-align: center;
+}
+
+.platform-subsidy{
+    font-family: dINAlternateBold;
+    font-size: 13px;
+    color: #FF3A81;
+    text-align: center;
+}
+
+.interest-rate-describe{
+    font-family: dINAlternateBold;
+    font-size: 10px;
+    color: #999999;
+}
+
+.pop-day{
+    display: flex;
+    align-content: center;
+    align-self: center;
+    text-align: center;
+}
+
+
+
+.footer{
+
+}
