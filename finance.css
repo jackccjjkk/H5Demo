@@ -37,12 +37,10 @@ body{
 .content-list{
     width: 100%;
     background: #F0F0F0;
+    margin-top: 50px;
+    margin-bottom: 48px;
 }
 
-.content-list-item-top{
-    background: white;
-    margin-top: 50px;
-}
 
 .content-list-item{
     background: white;

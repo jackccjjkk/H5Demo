@@ -73,7 +73,7 @@ body {
 }
 
 .content-center {
-    flex: 3;
+    flex: 4;
     text-align: center;
     margin: 0 auto;
 }
@@ -87,7 +87,6 @@ body {
 
 
 .content-left-top {
-    display: flex;
     align-items: baseline;
 }
 
@@ -99,7 +98,6 @@ body {
 }
 
 .content-center-day{
-    display: flex;
     text-align: center;
 }
 
@@ -107,15 +105,12 @@ body {
     font-weight: bold;
     font-size: 13px;
     color: #999999;
-    text-align: center;
-
     font-family: dINAlternateBold;
 }
 
 .day-text{
     font-size: 10px;
     color: #999999;
-    text-align: center;
 }
 
 .interest-rate {
@@ -136,7 +131,6 @@ body {
 }
 
 .content-center-popbuy{
-    display: flex;
     text-align: center;
 }
 

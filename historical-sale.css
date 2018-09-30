@@ -111,7 +111,6 @@ body{
 }
 
 .content-center-txt{
-    text-align: center;
 }
 
 .vertical-line{
@@ -121,7 +120,6 @@ body{
 
 .count-day{
     color: #999999;
-    text-align: center;
 }
 
 .math{
@@ -142,7 +140,6 @@ body{
 }
 
 .num-pop{
-    text-align: center;
 }
 
 .num{
@@ -150,14 +147,12 @@ body{
     font-size: 14px;
     font-weight: bold;
     font-family: dINAlternateBold;
-    text-align: center;
 }
 
 .pop{
     color: #999999;
     font-size: 8px;
     font-family: dINAlternateBold;
-    text-align: center;
 }
 
 .money{
