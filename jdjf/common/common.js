@@ -1,4 +1,4 @@
-var SERVER_PATH = "http://www.test.com/";
+var SERVER_PATH = "http://test.www.bjdai.com.cn";
 /**
  * 调用后台服务器的ajax，Post方式，返回json类型，utf-8格式
  *

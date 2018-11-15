@@ -3,9 +3,9 @@ $(document).ready(function () {
         doLogin();
     });
     function doLogin() {
-        var url = "login.do"; //接口地址
+        var url = "/user/loginUsePwd.php"; //接口地址
         var params = {
-            "userName": $("#userName").val(),
+            "phone": $("#phone").val(),
             "password": $("#password").val()
         };
         var success = function (result) {
@@ -16,5 +16,7 @@ $(document).ready(function () {
         };
         ajaxPost(url, params, success, error);
     }
+
+
 
 });
