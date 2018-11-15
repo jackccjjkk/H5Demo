@@ -1,0 +1,41 @@
+.content {
+  margin: 48px 0 0 0;
+}
+
+.header-content {
+  height: 48px;
+  position: relative;
+  background-color: #3768da;
+}
+
+.header-btn-left {
+  height: 48px;
+  width: 48px;
+  position: absolute;
+}
+
+.header-center {
+  height: 48px;
+  line-height: 48px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.input-container {
+  height: 48px;
+  background-color: #fff;
+}
+
+.input-text {
+  outline: none;
+  border: none;
+  background: #fff;
+  height: 100%;
+  width: 80%;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 4px;
+  font-size: 15px;
+}
