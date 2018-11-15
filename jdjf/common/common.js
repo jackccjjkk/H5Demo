@@ -19,11 +19,11 @@ function ajaxPost(url, param, success, error) {
         url: SERVER_PATH + url,
         type: 'POST',
         timeout: 60000, // 超时时间设置，单位毫秒
-        data: JSON.stringify(param),
+        data: param,
         dataType: 'json',
-        contentType: 'application/json;charset=UTF-8',
+        // contentType: 'application/json;charset=UTF-8',
         beforeSend: function (xhr) {
-            xhr.setRequestHeader("sign", localStorage.getItem("sign"));
+            // xhr.setRequestHeader("sign", localStorage.getItem("sign"));
         },
         success: eval(function (data) {
             success(data);
